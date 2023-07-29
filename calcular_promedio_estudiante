@@ -1,0 +1,19 @@
+Calcular el promedio teórico del primer periodo de un estudiante de Introducción a la Programación, sabiendo que las actividades (con su porcentaje %) a evaluar son:
+
+Investigación (35%)
+Exposición (35%)
+Parcial (30%)
+
+
+
+Algoritmo CalcularPromedio
+
+	Escribir "Ingrese calificación de investigación: "
+	Leer investigacion
+	Escribir "Ingrese calificación de exposición: "
+	Leer exposicion
+	Escribir "Ingrese calificación de parcial: "
+	Leer parcial
+	promedio<- ((investigacion*35/100)+(exposicion*35/100)+(parcial*30/100)) // Nota: puse el parcial en 30 porque si se pone a 40 la suma es 110 %
+	Escribir "Promedio es ",promedio
+FinAlgoritmo
